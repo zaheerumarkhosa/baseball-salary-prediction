@@ -7,6 +7,7 @@ A machine learning project comparing Ridge and Lasso regression techniques for p
 This project demonstrates the application of regularized regression models on a real-world dataset. The goal is to predict player salary based on performance metrics and other features.
 
 **Key Techniques:**
+- Linear Regression
 - Ridge Regression (L2 Regularization)
 - Lasso Regression (L1 Regularization)
 - Feature Scaling & Normalization
@@ -24,8 +25,9 @@ This project demonstrates the application of regularized regression models on a 
 
 | Model | RMSE | R² Score |
 |-------|------|----------|
-| Ridge Regression | [Your RMSE] | [Your R² Score] |
-| Lasso Regression | [Your RMSE] | [Your R² Score] |
+| Linear Regression | 313.239567899406   | 
+| Ridge Regression  | 288.62308325272807 | 
+| Lasso Regression  | 387.3533739552414  | 
 
 ## Key Learnings
 
@@ -40,7 +42,7 @@ Regularized models are sensitive to feature magnitude. StandardScaler ensures al
 
 ## Files
 
-- `baseball_salary_prediction.py` - Main analysis script
+- `Multiple Linear_Regression_Ridge_Lasso_Hitters` - Main analysis script
 - `README.md` - This file
 - `requirements.txt` - Python dependencies
 
@@ -68,13 +70,13 @@ matplotlib>=3.3
 
 ## Author
 
-**[Your Name]** - Data Science Student | Statistics Enthusiast
+Zaheer Umar- Data Science Student | Statistics Enthusiast
 
 I'm learning machine learning & AI. This project is part of my DataCamp Associate Data Scientist in Python course.
 
 **Connect with me:**
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
-- Email: your.email@gmail.com
+- LinkedIn:([https://linkedin.com/in/yourprofile](https://www.linkedin.com/in/zaheer-u-80743714a/))
+- Email: zaheerumarkhosa@gmail.com
 
 ## Future Improvements
 
@@ -90,4 +92,4 @@ This project is open source and available under the MIT License.
 
 ---
 
-*Last Updated: [Your Date]*
+
